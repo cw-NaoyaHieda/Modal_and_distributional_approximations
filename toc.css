@@ -147,3 +147,105 @@ pre.r { color: #1f1c1b; background-color: #e6e6fa; }
 #content {
     max-width: 100%; 
 }
+
+.blue_box {
+    margin: 2em 0;
+    background: #dcefff;
+}
+.blue_box .box-title {
+    font-size: 1.2em;
+    background: #5fb3f5;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.blue_box p {
+    padding: 15px 20px;
+    margin: 0;
+}
+
+.red_box {
+    margin: 2em 0;
+    background: #ffebe9;
+}
+.red_box .box-title {
+    font-size: 1.2em;
+    background: #ff7d6e;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.red_box p {
+    padding: 15px 20px;
+    margin: 0;
+}
+
+.green_box {
+    margin: 2em 0;
+    background: #E0F8F1;
+}
+.green_box .box-title {
+    font-size: 1.2em;
+    background: #2EFE9A;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.green_box p {
+    padding: 15px 20px;
+    margin: 0;
+}
+
+.smart{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #5d627b;
+    background: white;
+    border-top: solid 5px #5d627b;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+}
+.smart .box-title {
+    font-size: 1.2em;
+    background: #5fb3f5;
+    padding: 4px;
+    text-align: center;
+    color: #FFF;
+    font-weight: bold;
+    letter-spacing: 0.05em;
+}
+.smart p {
+    margin: 0; 
+    padding: 0;
+}
+
+.example_box {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #62c1ce;
+}
+.example_box .box-title {
+    position: absolute;
+    display: inline-block;
+    top: -27px;
+    left: -3px;
+    padding: 0 9px;
+    height: 25px;
+    line-height: 25px;
+    vertical-align: middle;
+    font-size: 17px;
+    background: #62c1ce;
+    color: #ffffff;
+    font-weight: bold;
+    border-radius: 5px 5px 0 0;
+}
+.example_box p {
+    margin: 0; 
+    padding: 0;
+}
